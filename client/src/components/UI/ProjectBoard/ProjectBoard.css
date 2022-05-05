@@ -1,0 +1,453 @@
+.project_board {
+  width: 50%;
+}
+
+.top_black_frame_padding {
+  position: relative;
+}
+
+.top_black_frame {
+  background-color: #000;
+}
+
+.top_sec_black_frame_padding {
+  position: relative;
+}
+
+.top_sec_black_frame {
+  background-color: #000;
+}
+
+.top_yellow_frame_padding {
+  z-index: 1;
+  position: relative;
+}
+
+.top_yellow_frame {
+  background-color: #f9e493;
+}
+
+.side_black_frame {
+  border-color: #000;
+  border-style: solid;
+}
+
+.yellow_space {
+  background-color: #fbcf3a;
+  position: relative;
+}
+
+.bottom_yellow_frame_padding {
+  position: relative;
+  z-index: 1;
+}
+
+.bottom_yellow_frame {
+  background-color: #f99a0c;
+}
+
+.bottom_sec_black_frame_padding {
+  position: relative;
+}
+
+.bottom_sec_black_frame {
+  background-color: #000;
+}
+
+.bottom_black_frame_padding {
+  position: relative;
+}
+
+.bottom_black_frame {
+  background-color: #000;
+}
+
+.yellow_dot {
+  background-color: #f9e493;
+}
+
+.black_dot {
+  background-color: #000;
+}
+
+.black_dot_2 {
+  position: relative;
+}
+
+.yellow_dot_2 {
+  background-color: #f99a0c;
+  position: relative;
+}
+
+.project_content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.top_black_frame_padding {
+  top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.top_black_frame {
+  height: 8px;
+}
+
+.top_sec_black_frame_padding {
+  top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.top_sec_black_frame {
+  height: 8px;
+}
+
+.top_yellow_frame_padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.top_yellow_frame {
+  height: 8px;
+}
+
+.side_black_frame {
+  border-width: 0 8px;
+  height: 440px;
+}
+
+.side_yellow_frame {
+  height: 440px;
+  border-left: 8px solid #f9e493;
+  border-right: 8px solid #f99a0c;
+}
+
+.yellow_space {
+  height: 440px;
+}
+
+.bottom_yellow_frame_padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.bottom_yellow_frame {
+  height: 8px;
+}
+
+.bottom_sec_black_frame_padding {
+  bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.bottom_sec_black_frame {
+  height: 8px;
+}
+
+.bottom_black_frame_padding {
+  bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.bottom_black_frame {
+  height: 8px;
+}
+
+.yellow_dot {
+  height: 8px;
+  width: 8px;
+}
+
+.black_dot_padding {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.black_dot {
+  height: 8px;
+  width: 8px;
+}
+
+.black_dot_2 {
+  bottom: 16px;
+}
+
+.yellow_dot_2 {
+  height: 8px;
+  width: 8px;
+  bottom: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+  .project_board {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .project_board {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .side_black_frame {
+    height: 425px;
+  }
+
+  .side_yellow_frame {
+    height: 425px;
+  }
+
+  .yellow_space {
+    height: 425px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .side_black_frame {
+    height: 575px;
+  }
+
+  .side_yellow_frame {
+    height: 575px;
+  }
+
+  .yellow_space {
+    height: 575px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project_board {
+    width: unset;
+  }
+
+  .side_black_frame {
+    height: 525px;
+  }
+
+  .side_yellow_frame {
+    height: 525px;
+  }
+
+  .yellow_space {
+    height: 525px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .side_black_frame {
+    height: 550px;
+  }
+
+  .side_yellow_frame {
+    height: 550px;
+  }
+
+  .yellow_space {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .side_black_frame {
+    height: 575px;
+  }
+
+  .side_yellow_frame {
+    height: 575px;
+  }
+
+  .yellow_space {
+    height: 575px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top_black_frame_padding {
+    top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .top_black_frame {
+    height: 5px;
+  }
+
+  .top_sec_black_frame_padding {
+    top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .top_sec_black_frame {
+    height: 5px;
+  }
+
+  .top_yellow_frame_padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .top_yellow_frame {
+    height: 5px;
+  }
+
+  .side_black_frame {
+    border-width: 0 5px;
+    height: 525px;
+  }
+
+  .side_yellow_frame {
+    height: 525px;
+    border-left: 5px solid #f9e493;
+    border-right: 5px solid #f99a0c;
+  }
+
+  .yellow_space {
+    height: 525px;
+  }
+
+  .bottom_yellow_frame_padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bottom_yellow_frame {
+    height: 5px;
+  }
+
+  .bottom_sec_black_frame_padding {
+    bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .bottom_sec_black_frame {
+    height: 5px;
+  }
+
+  .bottom_black_frame_padding {
+    bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bottom_black_frame {
+    height: 5px;
+  }
+
+  .yellow_dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  .black_dot_padding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .black_dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  .black_dot_2 {
+    bottom: 10px;
+  }
+
+  .yellow_dot_2 {
+    height: 5px;
+    width: 5px;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .side_black_frame {
+    height: 525px;
+  }
+
+  .side_yellow_frame {
+    height: 525px;
+  }
+
+  .yellow_space {
+    height: 525px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .side_black_frame {
+    height: 550px;
+  }
+
+  .side_yellow_frame {
+    height: 550px;
+  }
+
+  .yellow_space {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .side_black_frame {
+    height: 550px;
+  }
+
+  .side_yellow_frame {
+    height: 550px;
+  }
+
+  .yellow_space {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  .side_black_frame {
+    height: 550px;
+  }
+
+  .side_yellow_frame {
+    height: 550px;
+  }
+
+  .yellow_space {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .side_black_frame {
+    height: 575px;
+  }
+
+  .side_yellow_frame {
+    height: 575px;
+  }
+
+  .yellow_space {
+    height: 575px;
+  }
+}
+
+@media screen and (max-height: 660px) and (min-width: 1200px) {
+  .side_black_frame {
+    height: 300px;
+  }
+
+  .side_yellow_frame {
+    height: 300px;
+  }
+
+  .yellow_space {
+    height: 300px;
+  }
+}

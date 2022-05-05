@@ -1,0 +1,93 @@
+.project_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  justify-content: space-between;
+}
+
+.grey_dot {
+  background-color: #d8d8d8;
+  height: 8px;
+  width: 8px;
+}
+
+.white_space_1 {
+  background-color: #fff;
+  height: 16px;
+  width: 8px;
+}
+
+.white_space_2 {
+  background-color: #fff;
+  height: 32px;
+  width: 8px;
+}
+
+.black_space {
+  background-color: #000;
+  height: 56px;
+  width: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .project_button_right {
+    position: relative;
+    right: 5rem;
+  }
+
+  .project_button_left {
+    position: relative;
+    left: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project_button {
+    padding-top: 3.15rem;
+    position: unset;
+    transform: unset;
+    width: unset;
+    justify-content: center;
+  }
+
+  .project_button_right {
+    position: unset;
+    padding-left: 2.5rem;
+  }
+
+  .project_button_left {
+    position: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project_button {
+    padding-top: 1rem;
+  }
+
+  .project_button_right {
+    padding-left: 1rem;
+  }
+
+  .grey_dot {
+    height: 5px;
+    width: 5px;
+  }
+
+  .white_space_1 {
+    height: 10px;
+    width: 5px;
+  }
+
+  .white_space_2 {
+    height: 20px;
+    width: 5px;
+  }
+
+  .black_space {
+    height: 35px;
+    width: 5px;
+  }
+}

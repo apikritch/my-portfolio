@@ -1,0 +1,298 @@
+.skills_section {
+  background-image: linear-gradient(#324c6d, #2381e3);
+  position: relative;
+}
+
+.last_box {
+  padding-bottom: 6.25rem;
+}
+
+.skill_padding_l {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.first_box,
+.second_box,
+.third_box {
+  padding-top: 6.5rem !important;
+}
+
+.justify_skills_content {
+  justify-content: space-around !important;
+}
+
+.order_1_l {
+  order: 1;
+}
+.order_2_l {
+  order: 2;
+}
+.order_3_l {
+  order: 3;
+}
+.order_4_l {
+  order: 4;
+}
+.order_5_l {
+  order: 5;
+}
+.order_6_l {
+  order: 6;
+}
+.order_7_l {
+  order: 7;
+}
+.order_8_l {
+  order: 8;
+}
+.order_9_l {
+  order: 9;
+}
+.order_10_l {
+  order: 10;
+}
+
+@media screen and (max-width: 1390px) {
+  .skill_padding_l {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .justify_skills_content {
+    justify-content: space-between !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .first_box,
+  .second_box {
+    padding-top: 6.5rem !important;
+  }
+
+  .third_box {
+    padding-top: 2rem !important;
+  }
+
+  .justify_skills_content {
+    position: relative;
+    justify-content: space-between !important;
+    padding-bottom: 3.5rem;
+  }
+
+  .order_1 {
+    order: 1;
+  }
+  .order_2 {
+    order: 2;
+  }
+  .order_3 {
+    order: 3;
+  }
+  .order_4 {
+    order: 4;
+  }
+  .order_5 {
+    order: 5;
+  }
+  .order_6 {
+    order: 6;
+  }
+  .order_7 {
+    order: 7;
+  }
+  .order_8 {
+    order: 8;
+  }
+  .order_9 {
+    order: 9;
+    position: relative;
+    top: -12.1rem;
+  }
+  .order_10 {
+    order: 10;
+    position: absolute;
+    top: 57.6rem;
+  }
+
+  .last_box {
+    padding-bottom: unset;
+  }
+
+  .order_1,
+  .order_3,
+  .order_5,
+  .order_7,
+  .order_9,
+  .order_10 {
+    padding-left: 5rem !important;
+  }
+
+  .order_2,
+  .order_4,
+  .order_6,
+  .order_8 {
+    padding-right: 5rem !important;
+  }
+
+  .skill_padding_l {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .order_9 {
+    top: -12.1rem;
+  }
+  .order_10 {
+    top: 57rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .order_10 {
+    top: 57rem;
+  }
+
+  .order_1,
+  .order_3,
+  .order_5,
+  .order_7,
+  .order_9,
+  .order_10 {
+    padding-left: 3rem !important;
+  }
+
+  .order_2,
+  .order_4,
+  .order_6,
+  .order_8 {
+    padding-right: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .order_1,
+  .order_3,
+  .order_5,
+  .order_7,
+  .order_9,
+  .order_10 {
+    padding-left: 1rem !important;
+  }
+
+  .order_2,
+  .order_4,
+  .order_6,
+  .order_8 {
+    padding-right: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .first_box,
+  .second_box {
+    padding-top: 6.5rem !important;
+  }
+  .third_box {
+    padding-top: 1.5rem !important;
+  }
+
+  .justify_skills_content {
+    justify-content: space-between !important;
+  }
+
+  .order_9 {
+    top: -12.25rem;
+  }
+  .order_10 {
+    top: 56rem;
+  }
+
+  .order_1,
+  .order_3,
+  .order_5,
+  .order_7,
+  .order_9,
+  .order_10 {
+    padding-left: unset !important;
+  }
+
+  .order_2,
+  .order_4,
+  .order_6,
+  .order_8 {
+    padding-right: unset !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .order_9 {
+    top: -12.25rem;
+  }
+  .order_10 {
+    top: 55.4rem;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .order_9 {
+    top: -12.2rem;
+  }
+  .order_10 {
+    top: 55.1rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .order_9 {
+    top: -12.1rem;
+  }
+  .order_10 {
+    top: 54.2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .second_box {
+    padding-top: 1.5rem !important;
+  }
+
+  .justify_skills_content {
+    justify-content: center !important;
+    padding-bottom: unset;
+  }
+
+  .order_1,
+  .order_2,
+  .order_3,
+  .order_4,
+  .order_5,
+  .order_6,
+  .order_7,
+  .order_8,
+  .order_9,
+  .order_10 {
+    order: unset;
+  }
+
+  .order_9 {
+    position: unset;
+  }
+  .order_10 {
+    position: unset;
+  }
+
+  .last_box {
+    padding-bottom: 6.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first_box {
+    padding-top: 4.75rem !important;
+  }
+}

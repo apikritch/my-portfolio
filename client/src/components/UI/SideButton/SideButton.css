@@ -1,0 +1,187 @@
+.side_button:before,
+.side_button::after {
+  content: "";
+  position: absolute;
+  box-sizing: content-box;
+  width: 100%;
+  height: 45px;
+}
+
+.side_button:before {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+
+.side_button::after {
+  border-left: 4px solid #000;
+  border-right: 4px solid #000;
+}
+
+.side_button {
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  user-select: none;
+  border: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.side_button:hover {
+  color: #fff;
+}
+
+.side_button:active {
+  color: #fff;
+}
+
+.button_p_blue {
+  background-color: #00b3ff;
+  box-shadow: inset -4px -4px 0px 0px #004dff;
+}
+.button_p_blue:hover {
+  background-color: #0d8eff;
+}
+.button_p_blue:active {
+  background-color: #0d8eff;
+  box-shadow: inset 3px 3px 0px 0px #004dff;
+}
+
+.button_p_red {
+  background-color: #ff1532;
+  box-shadow: inset -4px -4px 0px 0px #b30001;
+}
+.button_p_red:hover {
+  background-color: #db0303;
+}
+.button_p_red:active {
+  background-color: #db0303;
+  box-shadow: inset 3px 3px 0px 0px #b30001;
+}
+
+.button_p_green {
+  background-color: #92cd41;
+  box-shadow: inset -4px -4px 0px 0px #4aa52e;
+}
+.button_p_green:hover {
+  background-color: #76c442;
+}
+.button_p_green:active {
+  background-color: #76c442;
+  box-shadow: inset 3px 3px 0px 0px #4aa52e;
+}
+
+.button_p_yellow {
+  background-color: #fcb13d;
+  box-shadow: inset -4px -4px 0px 0px #ef5b26;
+}
+.button_p_yellow:hover {
+  background-color: #f89420;
+}
+.button_p_yellow:active {
+  background-color: #f89420;
+  box-shadow: inset 3px 3px 0px 0px #ef5b26;
+}
+
+.button_p_purple {
+  background-color: #df5ae7;
+  box-shadow: inset -4px -4px 0px 0px #73037f;
+}
+.button_p_purple:hover {
+  background-color: #c734cd;
+}
+.button_p_purple:active {
+  background-color: #c734cd;
+  box-shadow: inset 3px 3px 0px 0px #73037f;
+}
+
+@media screen and (max-width: 844px) {
+  .side_button {
+    width: 29.33%;
+    height: 40px;
+    margin-bottom: 1rem;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .side_button:before {
+    width: 29.33%;
+    height: 40px;
+  }
+
+  .side_button::after {
+    width: 29.33%;
+    height: 40px;
+  }
+
+  .margin_side_button {
+    margin-right: 2%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .side_button {
+    width: 46%;
+  }
+
+  .side_button:before {
+    width: 46%;
+  }
+
+  .side_button::after {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .side_button {
+    width: 44%;
+    margin-bottom: 1rem;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .margin_side_button {
+    margin-right: 3%;
+  }
+
+  .side_button:before {
+    width: 44%;
+  }
+
+  .side_button::after {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .side_button {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-height: 660px) and (min-width: 1200px) {
+  .side_button {
+    width: 17.5%;
+    height: 40px;
+    margin-bottom: 0.25rem;
+    font-size: 0.7rem;
+  }
+
+  .side_button:before {
+    width: 17.5%;
+    height: 40px;
+  }
+
+  .side_button::after {
+    width: 17.5%;
+    height: 40px;
+  }
+
+  .margin_side_button {
+    margin-right: 1rem;
+  }
+}

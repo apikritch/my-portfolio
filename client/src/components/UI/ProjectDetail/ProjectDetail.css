@@ -1,0 +1,174 @@
+.project_board_padding {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.project_border {
+  width: 70%;
+  border: 4px solid #000;
+}
+
+.image_frame {
+  background-color: #fff;
+  padding: 0.75rem;
+  width: 100%;
+  border-bottom: 4px solid #000;
+}
+
+.images {
+  width: 100%;
+}
+
+.project_details {
+  width: 100%;
+  font-size: 0.65rem;
+  color: #000;
+}
+
+.detail_background {
+  background-color: #fff;
+  padding: 0.75rem;
+  height: 100%;
+}
+
+.web_header {
+  font-weight: 900;
+  font-size: 0.85rem;
+}
+
+.web_details {
+  padding-top: 0.5rem;
+}
+
+.project_side_button_frame {
+  width: 30%;
+  padding-top: 4px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.side_button_position {
+  position: relative;
+}
+
+@media screen and (max-width: 844px) {
+  .project_board_padding {
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .project_border {
+    width: 100%;
+    border: unset;
+    margin-top: 0.75rem;
+  }
+
+  .image_frame {
+    border: 4px solid #000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project_details {
+    border-width: 4px;
+    border-color: #000;
+    border-style: none solid solid solid;
+  }
+
+  .project_side_button_frame {
+    width: unset;
+    padding-top: 0.75rem;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .side_button_position {
+    width: 104%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    left: -2%;
+  }
+
+  .images {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .project_board_padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .images {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .images {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project_side_button_frame {
+    padding-top: 0.8rem;
+  }
+
+  .project_board_padding {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .side_button_position {
+    width: 106%;
+    left: -3%;
+  }
+}
+
+@media screen and (max-height: 660px) and (min-width: 1200px) {
+  .project_board_padding {
+    display: block;
+  }
+
+  .project_border {
+    width: unset;
+    border: 4px solid #000;
+    display: flex;
+  }
+
+  .image_frame {
+    border-right: 4px solid #000;
+    border-bottom: unset;
+  }
+
+  .project_side_button_frame {
+    width: unset;
+    padding-top: 0.75rem;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .side_button_position {
+    display: flex;
+  }
+
+  .side_button_justify_a {
+    justify-content: space-between;
+  }
+
+  .side_button_justify_b {
+    justify-content: unset;
+  }
+}

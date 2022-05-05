@@ -1,0 +1,193 @@
+.contact_title {
+  font-size: 1rem;
+}
+
+.contact_input_frame,
+.contact_textarea_frame {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.top_white_input_padding {
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.top_white_input {
+  background-color: #fff;
+  height: 4px;
+}
+
+.top_sec_white_input_padding {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.top_sec_white_input {
+  background-color: #fff;
+  height: 4px;
+}
+
+.side_white_input {
+  background-color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+*:focus {
+  outline: unset;
+}
+
+.contact_input,
+.contact_textarea {
+  border: unset;
+  width: 100%;
+  caret-color: black;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.top_black_input_padding {
+  position: absolute;
+  top: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  width: 100%;
+}
+
+.top_black_input {
+  background-color: #000;
+  height: 4px;
+}
+
+.top_black_dot_padding {
+  position: absolute;
+  top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+}
+
+.small_black_dot {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+}
+
+.side_black_input_padding {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.side_black_input {
+  border-style: solid;
+  border-color: #000;
+  border-width: 0 4px;
+}
+
+.bottom_black_input_padding {
+  position: absolute;
+  bottom: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  width: 100%;
+}
+
+.bottom_black_input {
+  background-color: #000;
+  height: 4px;
+}
+
+.bottom_black_dot_padding {
+  position: absolute;
+  bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+}
+
+.top_white_textarea_padding {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.top_white_textarea {
+  background-color: #fff;
+  height: 4px;
+}
+
+.top_black_textarea_padding {
+  position: absolute;
+  top: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+}
+
+.top_black_textarea,
+.bottom_black_textarea {
+  background-color: #000;
+  height: 4px;
+}
+
+.bottom_black_textarea_padding {
+  position: absolute;
+  bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+}
+
+.side_black_textarea_padding {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.side_black_textarea {
+  border-style: solid;
+  border-color: #000;
+  border-width: 0 4px;
+  position: relative;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+.side_black_textarea:after {
+  z-index: 10;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+  pointer-events: none;
+}
+
+.puller {
+  background: no-repeat center/100%
+    url("../../../assets/Resize_Grabber/Resize_Grabber.png");
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+  pointer-events: none;
+  z-index: 3;
+}
+@media screen and (min-width: 769px) {
+  .contact_content_position {
+    padding-top: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_content_position {
+    padding-top: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact_content_position {
+    padding-top: 1rem;
+  }
+}

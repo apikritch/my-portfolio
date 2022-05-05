@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+}
+
+.header {
+  font-size: 1.6rem;
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+  }
+}

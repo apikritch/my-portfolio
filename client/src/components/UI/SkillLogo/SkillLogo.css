@@ -1,0 +1,99 @@
+.skill_logo {
+  height: 40px;
+}
+
+.skill_text {
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.skill_logo_row {
+  padding-top: 2rem;
+}
+
+.background_white {
+  background-color: #fff;
+  padding: 0.1rem;
+}
+
+@media screen and (max-width: 1220px) {
+  .skill_logo_row {
+    word-spacing: -0.3rem;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .skill_text {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .skill_logo_row {
+    word-spacing: -0.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .skill_text {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skill_logo_row {
+    word-spacing: -0.4rem;
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .skill_text {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .skill_text {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .skill_text {
+    font-size: 0.75rem;
+  }
+
+  .skill_logo_row {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill_logo_row {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    word-spacing: -0.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .skill_logo_row {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .skill_logo_row {
+    word-spacing: -0.35rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .skill_logo_row {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}

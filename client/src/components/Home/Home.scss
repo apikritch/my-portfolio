@@ -1,0 +1,192 @@
+.home_section {
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+}
+
+@function multiple-stars($n) {
+  $value: "#{random(100)}vw #{random(100)}vh #FFF";
+
+  @for $i from 0 through $n {
+    $value: "#{$value} , #{random(100)}vw #{random(100)}vh #FFF";
+  }
+
+  @return unquote($value);
+}
+
+$stars: multiple-stars(10);
+$medium_stars: multiple-stars(20);
+$small_stars: multiple-stars(30);
+
+#stars,
+#medium_stars,
+#small_stars {
+  position: absolute;
+  background: transparent;
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 100vh;
+    background: transparent;
+  }
+}
+
+#stars {
+  box-shadow: $stars;
+  animation: animate-stars 150s linear infinite;
+
+  &:after {
+    box-shadow: $stars;
+  }
+}
+
+#medium_stars {
+  box-shadow: $medium_stars;
+  animation: animate-stars 100s linear infinite;
+
+  &:after {
+    box-shadow: $medium_stars;
+  }
+}
+
+#small_stars {
+  box-shadow: $small_stars;
+  animation: animate-stars 50s linear infinite;
+
+  &:after {
+    box-shadow: $small_stars;
+  }
+}
+
+.home_section {
+  font-size: 1.6rem;
+}
+
+#stars,
+#medium_stars,
+#small_stars {
+  left: -3.75rem;
+}
+
+#stars {
+  width: 5px;
+  height: 5px;
+
+  &:after {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+#medium_stars {
+  width: 3px;
+  height: 3px;
+
+  &:after {
+    width: 3px;
+    height: 3px;
+  }
+}
+
+#small_stars {
+  width: 1px;
+  height: 1px;
+
+  &:after {
+    width: 1px;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_section {
+    font-size: 1.5rem;
+  }
+
+  #stars,
+  #medium_stars,
+  #small_stars {
+    left: -2.5rem;
+  }
+
+  #stars {
+    width: 4px;
+    height: 4px;
+
+    &:after {
+      width: 4px;
+      height: 4px;
+    }
+  }
+
+  #medium_stars {
+    width: 3px;
+    height: 3px;
+
+    &:after {
+      width: 3px;
+      height: 3px;
+    }
+  }
+
+  #small_stars {
+    width: 2px;
+    height: 2px;
+
+    &:after {
+      width: 2px;
+      height: 2px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home_section {
+    font-size: 1.25rem;
+  }
+
+  #stars,
+  #medium_stars,
+  #small_stars {
+    left: -1.25rem;
+  }
+
+  #stars {
+    width: 3px;
+    height: 3px;
+
+    &:after {
+      width: 3px;
+      height: 3px;
+    }
+  }
+
+  #medium_stars {
+    width: 2px;
+    height: 2px;
+
+    &:after {
+      width: 2px;
+      height: 2px;
+    }
+  }
+
+  #small_stars {
+    width: 1px;
+    height: 1px;
+
+    &:after {
+      width: 1px;
+      height: 1px;
+    }
+  }
+}
+
+@keyframes animate-stars {
+  from {
+    transform: translateY(-50vh);
+  }
+  to {
+    transform: translateY(-150vh);
+  }
+}
