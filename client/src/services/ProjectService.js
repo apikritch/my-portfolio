@@ -11,8 +11,8 @@ const getProjectDetails = () => {
       project_details:
         "A multi-page website for a fragrance retailer in Sri Lanka.",
       image: SDPerfumery,
-      customer_website: "http://3.24.204.164:8082/",
-      admin_website: "http://3.24.204.164:8082/admin",
+      customer_website: "http://3.24.204.164:8081/",
+      admin_website: "http://3.24.204.164:8081/admin",
       password:
         "https://apikritch.s3.ap-southeast-2.amazonaws.com/Login+Credentials.txt",
       github: "https://github.com/apikritch/sd-perfumery",
@@ -24,7 +24,7 @@ const getProjectDetails = () => {
       project_details:
         "A single-page website for a restaurant includes table reservation functionality.",
       image: Restaurant,
-      customer_website: "http://3.24.204.164:8084/",
+      customer_website: "http://3.24.204.164:8082/",
       github: "https://github.com/apikritch/restaurant",
     },
     {
@@ -32,7 +32,7 @@ const getProjectDetails = () => {
       project_details:
         "A multi-page website for listing the spare weight of baggage and finding people who will be travelling between Thailand and Australia in order to hire them to carry personal things to the destination.",
       image: CarryHome,
-      customer_website: "http://3.24.204.164:8080/",
+      customer_website: "http://3.24.204.164:8083/",
       github: "https://github.com/apikritch/carry-home",
       figma:
         "https://www.figma.com/file/iY2M5BD9i7GUW6pXu4p7qz/CarryHome?node-id=0%3A1",
@@ -42,7 +42,7 @@ const getProjectDetails = () => {
       project_details:
         "A multi-page website for selling electric kits and parts for bikes.",
       image: EBikeShop,
-      customer_website: "http://3.24.204.164:8085/",
+      customer_website: "http://3.24.204.164:8084/",
       github: "https://github.com/apikritch/ebike-shop",
     },
     {

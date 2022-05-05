@@ -84,7 +84,7 @@ const Contact = (props) => {
     });
     const mail = await axios
       .create({
-        baseURL: "http://localhost:5000/",
+        baseURL: "http://3.24.204.164:8001/",
       })
       .post("api/mail", { mailData });
     if (mail.data === "success") {
