@@ -196,9 +196,28 @@ const Projects = (props) => {
         setBoardPadding(windowSize * 0.13);
       } else if (windowSize >= 1347 && windowSize <= 1404) {
         setBoardPadding(windowSize * 0.145);
-      } else if (windowSize >= 1405 && windowSize <= 1440) {
+      } else if (windowSize >= 1405 && windowSize <= 1475) {
         setBoardPadding(windowSize * 0.16);
-      } else if (windowSize >= 1441) {
+      } else if (windowSize >= 1476 && windowSize <= 1525) {
+        setBoardPadding(windowSize * 0.175);
+      } else if (windowSize >= 1526 && windowSize <= 1600) {
+        setBoardPadding(windowSize * 0.19);
+      } else if (windowSize >= 1601 && windowSize <= 1680) {
+        setBoardPadding(windowSize * 0.205);
+      } else if (windowSize >= 1681 && windowSize <= 1775) {
+        setBoardPadding(windowSize * 0.22);
+      } else if (windowSize >= 1776 && windowSize <= 1950) {
+        setBoardPadding(windowSize * 0.24);
+      } else if (windowSize >= 1951 && windowSize <= 2075) {
+        setBoardPadding(windowSize * 0.255);
+      } else if (windowSize >= 2076 && windowSize <= 2200) {
+        setBoardPadding(windowSize * 0.27);
+      } else if (windowSize >= 2201 && windowSize <= 2350) {
+        setBoardPadding(windowSize * 0.285);
+      } else if (windowSize >= 2351 && windowSize <= 2560) {
+        setBoardPadding(windowSize * 0.305);
+      } else if (windowSize >= 2561) {
+        setBoardPadding(windowSize * 0.32);
       }
     };
     getBoardSize();
@@ -210,6 +229,19 @@ const Projects = (props) => {
     centerPadding: `${boardPadding}px`,
     slidesToShow: 1,
     slidesToScroll: 1,
+    swipeToSlide: true,
+    afterChange: (index) => {
+      const prev = document.querySelectorAll(".slick-prev");
+      const next = document.querySelectorAll(".slick-next");
+      if (index === 0) {
+        prev[0].classList.add("hide_arrow");
+      } else if (index === 4) {
+        next[0].classList.add("hide_arrow");
+      } else {
+        prev[0].classList.remove("hide_arrow");
+        next[0].classList.remove("hide_arrow");
+      }
+    },
   };
 
   //Hide Arrow
@@ -218,7 +250,6 @@ const Projects = (props) => {
   const elements = document.querySelectorAll(".slick-slide");
   useEffect(() => {
     const elements = document.querySelectorAll(".slick-slide");
-
     if (elements.length) {
       if (elements[0].classList.contains("slick-active") === true) {
         setShowPrevArrow(false);
@@ -249,7 +280,7 @@ const Projects = (props) => {
         next[0].classList.add("hide_arrow");
       }
     }
-  }, [prev, next, showPrevArrow, showNextArrow]);
+  }, [prev, next, showPrevArrow, showNextArrow, x]);
   //Hide Arrow
 
   return (
